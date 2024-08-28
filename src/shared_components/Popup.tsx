@@ -28,7 +28,7 @@ const Popup: React.FC<IPopup> = ({ isOpen, title, onClose }) => {
         <div className="flex items-center justify-center mt-5">
           <button
             onClick={onClose}
-            className="mt-4 px-4 py-2 border border-yellow-500 hover:text-white rounded hover:bg-yellow-500"
+            className="mt-4 px-4 py-2 border border-yellow-500 text-white rounded bg-yellow-500"
           >
             Close
           </button>

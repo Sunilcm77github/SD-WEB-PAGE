@@ -4,7 +4,7 @@ import CategoryCard from "../shared_components/CategoryCard";
 import { categories } from "../services/Category.service";
 import Popup from "../shared_components/Popup";
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 12;
 
 const Home: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -28,13 +28,14 @@ const Home: React.FC = () => {
 
   return (
     <div className="container mx-auto p-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {displayedCategories.map((category) => (
           <CategoryCard
             key={category.id} // Ensure `key` is unique
             title={category.title}
             description={category.description}
             image={category.image}
+            appNumber={category.appNumber}
             onClick={togglePopup}
           />
         ))}
