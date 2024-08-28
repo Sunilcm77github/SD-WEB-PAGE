@@ -5,13 +5,15 @@ interface IPopup {
   title: string;
   onClose: () => void;
 }
+
 const Popup: React.FC<IPopup> = ({ isOpen, title, onClose }) => {
   if (!isOpen) {
     return null;
   }
+
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center border bg-opacity-50">
-      <div className="p-4 rounded-lg w-[25%] h-[30%] text-lg bg-transparent backdrop:fill-transparent backdrop-blur-md border border-gray-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+      <div className="p-4 rounded-lg w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 h-auto max-h-[90%] text-lg bg-transparent shadow-lg backdrop-blur-lg border border-gray-300">
         {title && (
           <div className="flex items-center justify-center mb-4">
             <h2 className="text-xl font-semibold text-gray-900">{title}</h2>
