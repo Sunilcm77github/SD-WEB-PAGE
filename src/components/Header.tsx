@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
           >
              <img
-              src="src/assets/sd.webp"
+              src="/sd.webp"
               alt="SD Products"
               className="w-10 h-10 rounded-full"
             />
