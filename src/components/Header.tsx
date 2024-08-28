@@ -4,19 +4,19 @@ const Header: React.FC = () => {
   return (
     <div>
       <header className="bg-gray-500 body-font">
-        <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+        <div className="container mx-auto flex flex-row p-3 md:flex-row items-center">
           <a
             href="/"
             className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
           >
-             <img
+            <img
               src="/sd.webp"
               alt="SD Products"
               className="w-10 h-10 rounded-full"
             />
             <span className="ml-3 text-xl">SD Products</span>
           </a>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <nav className="w-full md:w-auto md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-end">
             <a href="/" className="mr-5 text-white hover:text-yellow-500">
               Home
             </a>
