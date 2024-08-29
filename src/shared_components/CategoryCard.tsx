@@ -42,6 +42,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
             onClick={onClick}
           />
         </div>
+        <hr className="border-t-2 border-gray-200 my-4" />
         <div className="flex justify-between mt-4 md:mt-0">
           <h2 className="text-green-400 font-bold text-lg">{appNumber} Apps</h2>
           <button className=" hover:text-purple-600 text-white py-1 px-3 bg-black rounded-full flex items-center ">

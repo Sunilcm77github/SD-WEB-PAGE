@@ -11,7 +11,7 @@ export const categories = [
         title: "Usefull apps for India",
         description: "The Useful apps for India feature allows you to enhance productivity and streamline your workflow",
         appNumber: 104,
-        image: "/corn.jpg",
+        image: "/bluetooth.jpg",
     },
     {
         id: 3,
@@ -166,7 +166,7 @@ export const categories = [
         description: "The Works with Shopify Marketing feature will allows you to enhance productivity and streamline your workflow",
         appNumber: 104,
         image: "/oil.jpg",
-    },{
+    }, {
         id: 25,
         title: "Work with Shopify POS",
         description: "The Works with Shopify POS feature will allows you to enhance productivity and streamline your workflow",
@@ -249,7 +249,7 @@ export const categories = [
         description: "The Works with Shopify Marketing feature will allows you to enhance productivity and streamline your workflow",
         appNumber: 104,
         image: "/oil.jpg",
-    },{
+    }, {
         id: 37,
         title: "Work with Shopify POS",
         description: "The Works with Shopify POS feature will allows you to enhance productivity and streamline your workflow",

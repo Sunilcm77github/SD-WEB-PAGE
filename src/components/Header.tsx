@@ -11,7 +11,10 @@ const Header: React.FC = () => {
               ShopDigest
             </a>
             <span className="border-l-2 border-gray-300 h-5 mx-3"></span>
-            <a href="/" className="text-gray-900 flex hover:text-purple-600">
+            <a
+              href="/"
+              className="text-gray-900 font-semibold flex hover:text-purple-600"
+            >
               Shopify
               <span className="ml-1">
                 <svg

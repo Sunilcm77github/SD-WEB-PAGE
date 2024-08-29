@@ -28,6 +28,18 @@ const Home: React.FC = () => {
 
   return (
     <div className="container mx-auto p-8">
+      <h2 className="text-dark-black font-bold text-lg">
+        Top shopify collections
+      </h2>
+      <div className="flex justify-between mb-5 mt-4 md:mt-0">
+        <p className="text-light-black mt-2">
+          We use an agile approach to test assumptions and connect with needs of
+          your audience early and often.
+        </p>
+        <a href="/" className="hover:text-purple-600">
+          See all
+        </a>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {displayedCategories.map((category) => (
           <CategoryCard
@@ -47,7 +59,11 @@ const Home: React.FC = () => {
           onPageChange={handlePageChange}
         />
       )}
-      <Popup isOpen={isPopupOpen} title="Orders" onClose={togglePopup} />
+      <Popup
+        isOpen={isPopupOpen}
+        title="Connects you soon"
+        onClose={togglePopup}
+      />
     </div>
   );
 };

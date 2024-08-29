@@ -13,16 +13,16 @@ const Popup: React.FC<IPopup> = ({ isOpen, title, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="p-4 rounded-lg w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 h-auto max-h-[90%] text-lg bg-transparent shadow-lg backdrop-blur-lg border border-gray-300">
+      <div className="p-4 rounded-lg w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 h-auto max-h-[90%] text-lg bg-white shadow-lg backdrop-blur-lg border border-gray-300">
         {title && (
           <div className="flex items-center justify-center mb-4">
-            <h2 className="text-xl font-semibold text-white">{title}</h2>
+            <h2 className="text-xl font-semibold ">{title}</h2>
           </div>
         )}
         <hr className="bg-orange-500" />
         <div className="flex items-center justify-center mt-5">
           <p className="text-lg text-green-500 font-semibold">
-            Sales will start soon!
+            Under construction!
           </p>
         </div>
         <div className="flex items-center justify-center mt-5">
