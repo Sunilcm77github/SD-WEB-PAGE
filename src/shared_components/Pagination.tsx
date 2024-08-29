@@ -30,8 +30,8 @@ const Pagination: React.FC<PaginationProps> = ({
   }
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between border border-gray-300 py-2 rounded-md mt-8 space-y-4 md:space-y-0 md:space-x-4">
-      <p className="text-center md:ml-5">
+    <div className="flex flex-col md:flex-row items-center justify-between border border-gray-300 p-2 rounded-md mt-8 space-y-4 md:space-y-0 md:space-x-4">
+      <p className="text-center ">
         Showing {currentPage} of {totalPages}
       </p>
       <div className="flex items-center justify-center space-x-2">
@@ -42,7 +42,7 @@ const Pagination: React.FC<PaginationProps> = ({
         >
           Previous
         </button>
-        <div className="flex flex-wrap justify-center space-x-1">{pages}</div>
+
         <button
           className="px-2 py-1 sm:px-4 sm:py-2 border border-purple-600 text-purple-600 hover:text-white rounded-md hover:bg-purple-700"
           onClick={() => onPageChange(currentPage + 1)}
