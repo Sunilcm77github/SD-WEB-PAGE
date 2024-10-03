@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Home from "./pages/Home";
+import RouterPages from "./Router";
 
 const App: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const App: React.FC = () => {
       <div className="sticky top-0 z-50">
         <Header />
       </div>
-      <Home />
+      <RouterPages />
     </>
   );
 };

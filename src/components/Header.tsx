@@ -33,12 +33,15 @@ const Header: React.FC = () => {
           {/* Navigation Links */}
           <nav className="flex flex-wrap items-center text-base font-semibold justify-center gap-x-8 w-full md:w-auto">
             <a href="/" className="hover:text-purple-600">
+              Home
+            </a>
+            <a href="/features" className="hover:text-purple-600">
               Features
             </a>
-            <a href="/" className="hover:text-purple-600">
+            <a href="/marketplace" className="hover:text-purple-600">
               Marketplace
             </a>
-            <button className="hover:text-purple-600 flex items-center">
+            {/* <button className="hover:text-purple-600 flex items-center">
               Company
               <span className="ml-1">
                 <svg
@@ -51,12 +54,12 @@ const Header: React.FC = () => {
                   <path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z" />
                 </svg>
               </span>
-            </button>
-            <a href="/" className="hover:text-purple-600">
+            </button> */}
+            <a href="/ourteam" className="hover:text-purple-600">
               Team
             </a>
-            <a href="/" className="hover:text-purple-600">
-              Contact
+            <a href="/contactus" className="hover:text-purple-600">
+              Contact Us
             </a>
           </nav>
 
